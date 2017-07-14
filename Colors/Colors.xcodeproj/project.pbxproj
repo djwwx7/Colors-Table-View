@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		388C30501F1967F000A84284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C304F1F1967F000A84284 /* AppDelegate.swift */; };
-		388C30521F1967F000A84284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C30511F1967F000A84284 /* ViewController.swift */; };
 		388C30551F1967F000A84284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388C30531F1967F000A84284 /* Main.storyboard */; };
 		388C30581F1967F000A84284 /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 388C30561F1967F000A84284 /* Colors.xcdatamodeld */; };
 		388C305A1F1967F000A84284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388C30591F1967F000A84284 /* Assets.xcassets */; };
 		388C305D1F1967F000A84284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388C305B1F1967F000A84284 /* LaunchScreen.storyboard */; };
 		388C30681F1967F000A84284 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C30671F1967F000A84284 /* ColorsTests.swift */; };
 		388C30731F1967F000A84284 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C30721F1967F000A84284 /* ColorsUITests.swift */; };
+		388C30811F19728900A84284 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C30801F19728900A84284 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		388C304C1F1967F000A84284 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388C304F1F1967F000A84284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		388C30511F1967F000A84284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		388C30541F1967F000A84284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		388C30571F1967F000A84284 /* Colors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colors.xcdatamodel; sourceTree = "<group>"; };
 		388C30591F1967F000A84284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		388C306E1F1967F000A84284 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388C30721F1967F000A84284 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		388C30741F1967F000A84284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388C30801F19728900A84284 /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				388C304F1F1967F000A84284 /* AppDelegate.swift */,
-				388C30511F1967F000A84284 /* ViewController.swift */,
+				388C30801F19728900A84284 /* ColorsViewController.swift */,
 				388C30531F1967F000A84284 /* Main.storyboard */,
 				388C30591F1967F000A84284 /* Assets.xcassets */,
 				388C305B1F1967F000A84284 /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				388C30581F1967F000A84284 /* Colors.xcdatamodeld in Sources */,
-				388C30521F1967F000A84284 /* ViewController.swift in Sources */,
+				388C30811F19728900A84284 /* ColorsViewController.swift in Sources */,
 				388C30501F1967F000A84284 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
